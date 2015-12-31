@@ -1,6 +1,6 @@
 defmodule AppB do
   def start(_type, _args) do
-    loop
+    Task.start_link fn -> loop end
   end
 
   defp loop do
