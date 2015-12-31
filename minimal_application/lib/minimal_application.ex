@@ -1,0 +1,2 @@
+defmodule MinimalApplication do
+end
