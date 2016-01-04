@@ -2,4 +2,4 @@
 
 Spawning processes in Elixir.
 
-Use `mix run --no-halt --erl "+P 100"` to run the code and limit number of processes to 100.
+Use `ELIXIR_ERL_OPTIONS=2048 mix run --no-halt` to run the code and limit number of processes to 2048
